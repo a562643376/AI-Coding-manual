@@ -21,3 +21,5 @@ py tools/export_ai_coding_manual.py
 ```
 
 然后在 `AI-Coding-manual` 目录内提交并推送。
+
+说明：导出时只会覆盖 `Qoder/`、`Trae/` 及根目录的 `weixin.jpg`、`list.md`、`README.md`、`.gitignore`，不会删除 `.git`，以便在同一文件夹内直接 `git push`。
